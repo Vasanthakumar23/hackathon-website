@@ -24,6 +24,10 @@ video {
     margin-top: -100px;
   }
   
+  .hero-container > h2{
+    color:#fff;
+  }
+  
   .hero-container > p {
     margin-top: 8px;
     color: #fff;
