@@ -12,7 +12,7 @@
 }
 
 body {
-    position: absolute;
+    /* position: relative; */
     height: 100vh;
     background: #000000;
 }
@@ -21,8 +21,8 @@ body {
     position: relative;
     width: 1252px;
     height: 350px;
-    top: 50%; 
-    left: 50%; 
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     /* background: #171a1c; */
     box-shadow: rgba(0, 0, 0, 0.35) 15px 15px 35px;
@@ -49,7 +49,7 @@ body {
 .hero-content {
     float: right;
     position: relative;
-    width: auto;
+    width: 395px;
     height: 285px;
     padding: 15px;
     padding-left: 25px;
@@ -111,14 +111,14 @@ body {
 }
 
 .banner p {
-    /* position: absolute; */
+    position: absolute;
     font-size: 15px;
     top: 6%;
     left: 33.2%;
 }
 
 .banner h2 {
-    /* position: absolute; */
+    position: absolute;
     font-size: 25px;
     font-weight: 700;
     top: 10%;

@@ -11,14 +11,11 @@ function Home() {
   return (
     <>
       <HeroSection />
-      <div className='mb-4'>
-      <CountDownTimer />
+      <div>
+        <CountDownTimer />
       </div>
-      <div className=''>
       <Card />
-      <br/>
-      <Card/>
-      </div>
+      <Card />
       <div>
         <Footer /> 
       </div>
