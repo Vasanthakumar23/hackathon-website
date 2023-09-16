@@ -1,17 +1,28 @@
 import React from 'react';
 import '../../App.css';
 // import Timer from '../Timer';
-// import Cards from '../Cards';
+import CountDownTimer from '../CountDown/CountDownTimer';
+import Card from '../Card/Card';
 import HeroSection from '../HeroSection';
-// import Footer from '../Footer';
+import Footer from '../Footer';
+
 
 function Home() {
   return (
     <>
       <HeroSection />
-      {/* <Timer /> */}
-      {/* <Cards /> */}
-      {/* <Footer /> */}
+      <div className='mb-4'>
+      <CountDownTimer />
+      </div>
+      <div className=''>
+      <Card />
+      <br/>
+      <Card/>
+      </div>
+      <div>
+        <Footer /> 
+      </div>
+
     </>
   );
 }

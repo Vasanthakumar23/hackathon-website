@@ -6,7 +6,7 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/pexels-soumya-11041434 (1080p).mp4' autoPlay loop muted />
+       
       <h1>ALTRUIX</h1>
       <p>National-level Technical Symposium</p>
       <br/>
@@ -22,7 +22,7 @@ function HeroSection() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          GET STARTED
+          GET STARTED Hello
         </Button>
         <Button
           className='btns'
@@ -38,3 +38,4 @@ function HeroSection() {
 }
 
 export default HeroSection;
+// <video src='/videos/pexels-soumya-11041434 (1080p).mp4' autoPlay loop muted />
